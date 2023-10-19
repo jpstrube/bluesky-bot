@@ -1,0 +1,17 @@
+{
+  "name": "bluesky-bot",
+  "version": "1.0.0",
+  "description": "A Bluesky bot",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jpstrube",
+  "license": "ISC",
+  "dependencies": {
+    "@atproto/api": "^0.6.20",
+    "dotenv": "^16.3.1"
+  }
+}
