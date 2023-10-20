@@ -15,5 +15,5 @@ jobs:
       - name: Send post
         run: node index.js
         env:
-          BSKY_HANDLE: ${{ secrets.BLUESKY_BOT_USERNAME }}
-          BSKY_PASSWORD: ${{ secrets.BLUESKY_BOT_PASSWORD }}
+          BLUESKY_BOT_USERNAME: ${{ secrets.BLUESKY_BOT_USERNAME }}
+          BLUESKY_BOT_PASSWORD: ${{ secrets.BLUESKY_BOT_PASSWORD }}
