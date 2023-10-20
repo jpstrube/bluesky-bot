@@ -9,7 +9,7 @@ const generateQuote = async () => {
     identifier: process.env.BLUESKY_BOT_USERNAME,
     password: process.env.BLUESKY_BOT_PASSWORD,
   });
-  const rt = new RichText({ text: 'This is a test' });
+  const rt = new RichText({ text: "It's 19:10! #fcsp" });
   const postRecord = {
     $type: "app.bsky.feed.post",
     text: rt.text,
